@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+AudioDNNs_Benchmarks/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific - Results directory structure
+# Ignore all contents but keep folder structure with .gitkeep files
+results/**
+!results/.gitkeep
+!results/*/.gitkeep
+!results/*/*/.gitkeep
+
+# Binary data files (additional safety - already covered by results/**)
+*.pkl
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Data (keep structure but ignore large files if needed)
+# Uncomment if you want to ignore audio files
+# Data/stimuli/audio/**/*.wav
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model repositories (cloned from GitHub)
+# Add model-specific directories here as you clone them
+# Example:
+# script/models/repos/
+# audioset_tagging_cnn/
+# pytorch-soundnet/
+# coala/
+# etc.
+
