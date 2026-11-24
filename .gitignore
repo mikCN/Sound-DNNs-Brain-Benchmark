@@ -67,9 +67,10 @@ results/**
 *.npy
 *.npz
 
-# Data (keep structure but ignore large files if needed)
-# Uncomment if you want to ignore audio files
-# Data/stimuli/audio/**/*.wav
+# Large local data / caches (never push)
+Data/
+.cache/
+for_sara/
 
 # Logs
 *.log
@@ -79,6 +80,14 @@ logs/
 tmp/
 temp/
 *.tmp
+
+# LaTeX build junk (keep manuscript sources + figures + PDF)
+manuscript/*.aux
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/*.log
+manuscript/*.out
+manuscript/*.synctex.gz
 
 # Model repositories (cloned from GitHub)
 # Add model-specific directories here as you clone them

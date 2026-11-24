@@ -1,0 +1,41 @@
+factor,label,quantity,window_label,window_centre_s,value
+training_objective,Training objective,r2_max,,,0.4956899554346805
+training_objective,Training objective,time_at_r2_max_s,,,1.995
+training_objective,Training objective,r2_at_window_centre,Integration (0.20–0.35 s),0.275,0.2391537528227797
+training_objective,Training objective,r2_at_window_centre,Early-mid (0.35–0.65 s),0.5,0.3217370434292196
+training_objective,Training objective,r2_at_window_centre,Mid (0.65–1.05 s),0.8500000000000001,0.3385318051684081
+training_objective,Training objective,r2_at_window_centre,Late-mid (1.05–1.50 s),1.275,0.3430959545383421
+training_objective,Training objective,r2_at_window_centre,Pre-2 s (1.50–2.00 s),1.75,0.4263035987996282
+training_objective,Training objective,r2_at_window_centre,Late sustained (2–3 s),2.5,0.3056453943767238
+architecture_family,Architecture family,r2_max,,,0.447555393306927
+architecture_family,Architecture family,time_at_r2_max_s,,,1.845
+architecture_family,Architecture family,r2_at_window_centre,Integration (0.20–0.35 s),0.275,0.1502834984622799
+architecture_family,Architecture family,r2_at_window_centre,Early-mid (0.35–0.65 s),0.5,0.1594065458026463
+architecture_family,Architecture family,r2_at_window_centre,Mid (0.65–1.05 s),0.8500000000000001,0.1988596253563507
+architecture_family,Architecture family,r2_at_window_centre,Late-mid (1.05–1.50 s),1.275,0.2840103107281541
+architecture_family,Architecture family,r2_at_window_centre,Pre-2 s (1.50–2.00 s),1.75,0.3479852612820673
+architecture_family,Architecture family,r2_at_window_centre,Late sustained (2–3 s),2.5,0.2564667549417964
+training_modality,Training modality,r2_max,,,0.1562006768789003
+training_modality,Training modality,time_at_r2_max_s,,,0.72
+training_modality,Training modality,r2_at_window_centre,Integration (0.20–0.35 s),0.275,0.1233029690909202
+training_modality,Training modality,r2_at_window_centre,Early-mid (0.35–0.65 s),0.5,0.1065390764398885
+training_modality,Training modality,r2_at_window_centre,Mid (0.65–1.05 s),0.8500000000000001,0.1401180269173968
+training_modality,Training modality,r2_at_window_centre,Late-mid (1.05–1.50 s),1.275,0.0206878185984025
+training_modality,Training modality,r2_at_window_centre,Pre-2 s (1.50–2.00 s),1.75,0.0184629063975213
+training_modality,Training modality,r2_at_window_centre,Late sustained (2–3 s),2.5,0.0123100853049218
+input_representation,Input representation,r2_max,,,0.1483159709934098
+input_representation,Input representation,time_at_r2_max_s,,,0.045
+input_representation,Input representation,r2_at_window_centre,Integration (0.20–0.35 s),0.275,0.0412591404098584
+input_representation,Input representation,r2_at_window_centre,Early-mid (0.35–0.65 s),0.5,0.046087940643221
+input_representation,Input representation,r2_at_window_centre,Mid (0.65–1.05 s),0.8500000000000001,0.0589476568529109
+input_representation,Input representation,r2_at_window_centre,Late-mid (1.05–1.50 s),1.275,0.0574483221282897
+input_representation,Input representation,r2_at_window_centre,Pre-2 s (1.50–2.00 s),1.75,0.0515476307159109
+input_representation,Input representation,r2_at_window_centre,Late sustained (2–3 s),2.5,0.0741332143954992
+depth_c_plus_sq,Depth,r2_max,,,0.0917748278142162
+depth_c_plus_sq,Depth,time_at_r2_max_s,,,2.86
+depth_c_plus_sq,Depth,r2_at_window_centre,Integration (0.20–0.35 s),0.275,0.0578629987379319
+depth_c_plus_sq,Depth,r2_at_window_centre,Early-mid (0.35–0.65 s),0.5,0.0610165628071972
+depth_c_plus_sq,Depth,r2_at_window_centre,Mid (0.65–1.05 s),0.8500000000000001,0.0606148036474337
+depth_c_plus_sq,Depth,r2_at_window_centre,Late-mid (1.05–1.50 s),1.275,0.0390773285997154
+depth_c_plus_sq,Depth,r2_at_window_centre,Pre-2 s (1.50–2.00 s),1.75,0.0302575665382671
+depth_c_plus_sq,Depth,r2_at_window_centre,Late sustained (2–3 s),2.5,0.0442408074328772

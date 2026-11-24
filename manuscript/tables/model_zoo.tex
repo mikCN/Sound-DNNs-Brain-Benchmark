@@ -1,0 +1,42 @@
+% Model zoo table (included from main.tex). Reference column: fill in references.bib.
+\begin{longtable}{@{}p{3.2cm}lllrp{2.2cm}@{}}
+\caption{Representational models included in the benchmark. Primary reference per model: [TBD].}
+\label{tab:modelzoo} \\
+\toprule
+\textbf{Model} & \textbf{Family} & \textbf{Tier} & \textbf{SR} & \textbf{L} & \textbf{Ref.} \\
+\midrule
+\endfirsthead
+\multicolumn{6}{c}{\textit{(continued)}} \\
+\toprule
+\textbf{Model} & \textbf{Family} & \textbf{Tier} & \textbf{SR} & \textbf{L} & \textbf{Ref.} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+MTF\_HiRes & baseline & baseline & --- & 32 & [TBD] \\
+SpectroTemporal & baseline & baseline & 16\,kHz & 4 & [TBD] \\
+EnCodecMAE & ssl\_general & S & 24\,kHz & 54 & [TBD] \\
+BEATs & audio\_transformer & S & 16\,kHz & 74 & [TBD] \\
+Dasheng & ssl\_general & S & 16\,kHz & 59 & [TBD] \\
+AST & audio\_transformer & A & 16\,kHz & 24 & [TBD] \\
+PaSST & audio\_transformer & A & 32\,kHz & 63 & [TBD] \\
+CLAP & multimodal & A & 48\,kHz & 93 & [TBD] \\
+VGGish & cnn\_legacy & A & 16\,kHz & 15 & [TBD] \\
+YAMNet & cnn\_legacy & A & 16\,kHz & 14 & [TBD] \\
+Wav2Vec2 & ssl\_speech & B & 16\,kHz & 34 & [TBD] \\
+HuBERT & ssl\_speech & B & 16\,kHz & 34 & [TBD] \\
+WavLM & ssl\_speech & B & 16\,kHz & 34 & [TBD] \\
+PANNs\_Cnn14 & cnn & B & 32\,kHz & 17 & [TBD] \\
+PANNs\_Cnn6 & cnn & B & 32\,kHz & 9 & [TBD] \\
+PANNs\_ResNet22 & cnn & B & 32\,kHz & 39 & [TBD] \\
+PANNs\_Wavegram & cnn & B & 32\,kHz & 26 & [TBD] \\
+AudioCLIP & multimodal & opt. & 44.1\,kHz & 89 & [TBD] \\
+COALA & cnn\_hybrid & opt. & 22\,kHz & 12 & [TBD] \\
+SAM (PE-AV) & perception\_enc. & opt. & 48\,kHz & 57 & [TBD] \\
+SoundNet & cnn & opt. & 22.05\,kHz & 14 & [TBD] \\
+HTS-AT & audio\_transformer & opt. & 32\,kHz & 8 & [TBD] \\
+ImageBind & multimodal & opt. & 16\,kHz & 15 & [TBD] \\
+MSCRNN$^\ast$ & multiscale CRNN & ext. & --- & 20 & [TBD] \\
+\bottomrule
+\multicolumn{6}{@{}p{\linewidth}@{}}{\footnotesize $^\ast$Aud2Sem causal MSCRNN (20--40--80\,Hz). L = number of layers in layer-wise RSA. References: [TBD].} \\
+\end{longtable}
